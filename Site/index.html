@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Régis Amegnanglo — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav aria-label="Navigation principale">
+    <a href="#accueil" class="logo">REGIS AMEGNANGLO</a>
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section id="accueil">
+  <div class="contenu-texte">
+    <h1>Je suis Régis Amegnanglo, développeur web en devenir passionné par le numérique et l'IA</h1>
+    <p>Conception de solutions web performantes, sobres et accessibles, enrichies par les technologies d'intelligence artificielle.</p>
+    <a href="#projets" class="btn">Voir mes projets</a>
+    <a href="#contact" class="btn">Me contacter</a>
+  </div>
+  <img src="assets/images/portrait.jpg" alt="Portrait professionnel de Régis Amegnanglo, développeur web">
+</section>
+<section id="apropos">
+  <img src="assets/images/profil.jpg" alt="Photo de profil de Régis Amegnanglo">
+  <div class="contenu-texte">
+    <h2>À propos</h2>
+    <p>Autodidacte passionné en développement web depuis 2025, je construis mon parcours avec rigueur en combinant les fondamentaux du code et l'efficacité des outils d'intelligence artificielle. Mon approche privilégie la simplicité, la propreté du code et l'écoconception numérique pour concevoir des expériences web utiles et légères.</p>
+  </div>
+</section>
+<section id="competences">
+  <h2>Compétences</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Stitch</li>
+    <li>Figma</li>
+    <li>Outils IA (Antigravity, Google AI Studio, ChatGPT)</li>
+  </ul>
+</section>
+<section id="projets">
+  <h2>Projets</h2>
+<div class="liste-projets">
+<article>
+    <img src="assets/images/hope-sphere-crochet.webp" alt="Aperçu du site Hope'Sphere Crochet">
+    <h3>Hope'Sphere Crochet</h3>
+    <p>Site vitrine multi-sections : catalogue de créations, formulaire de contact et assistant conversationnel.</p>
+    <a href="https://hopespheretest.netlify.app" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+  </article>
+
+  <article>
+    <img src="assets/images/unihope-anion.webp" alt="Aperçu du site Unihope Anion">
+    <h3>Unihope Anion</h3>
+    <p>Landing page e-commerce avec présentation produit, avis clients et tunnel de commande via WhatsApp.</p>
+    <a href="https://lumensphereunihope.netlify.app" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+  </article>
+
+  <article>
+    <img src="assets/images/ricstreaming.webp" alt="Aperçu du site RicStreaming">
+    <h3>RicStreaming</h3>
+    <p>Plateforme d'abonnement en ligne avec tunnel de vente, page FAQ et paiement intégré.</p>
+    <a href="https://ricstreaming.store" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+  </article>
+</div>
+</section>
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="coordonnees">
+    <h3>Coordonnées directes</h3>
+    <p>Email : <a href="mailto:regisamegnanglo9@gmail.com">regisamegnanglo9@gmail.com</a></p>
+    <p>Téléphone : <a href="tel:+22901624914446">01 62 49 14 46</a></p>
+  </div>
+
+  <form id="contact-form" novalidate>
+    <div>
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <label for="sujet">Sujet</label>
+      <input type="text" id="sujet" name="sujet">
+    </div>
+
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <button type="submit">Envoyer le message</button>
+    <p id="form-feedback" role="status" aria-live="polite"></p>
+  </form>
+</section>
+  </main>
+<footer>
+  <p>&copy; 2026 Régis Amegnanglo. Tous droits réservés.</p>
+  <p>
+    <a href="mailto:regisamegnanglo9@gmail.com">Email</a> ·
+    <a href="tel:+22901624914446">Téléphone</a>
+  </p>
+</footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
